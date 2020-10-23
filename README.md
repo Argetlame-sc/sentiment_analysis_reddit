@@ -36,4 +36,4 @@ Usage of [virtualenv](https://docs.python.org/3/library/venv.html) is heavily re
 `python3 topic_modeling.py --data comments_cached.db`
 
 * Creating visual analysis (With topic modeling):
-`python3 data_analysis.py --saved_results results2.npz --comments_cached comments_cached.db --load_preprocess --topic_model topic_models/model_comments --pos_bias 1`
+`python3 data_analysis.py --saved_results results.npz --comments_cached comments_cached.db --load_preprocess --topic_model topic_models/model_comments --pos_bias 1`
