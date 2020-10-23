@@ -11,12 +11,12 @@ The training was done on a R5 1600 with 16 Gb of RAM
 
 ### Installation :
 
-Download the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) and extract it into a aclimdb dataset.
-Install python modules from `requirements.txt` with :
+* Download the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) and extract it into a aclimdb dataset.
+* Install python modules from `requirements.txt` with :
 `pip3 install -r requirements.txt` 
 Usage of [virtualenv](https://docs.python.org/3/library/venv.html) is heavily recommended
-
-To use `reddit_retriever.py` you need to create Oauth credential from a reddit account using a [reddit script app](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example) and place the results into a credentials.json file (using credentials.json.example as a base)
+* Download the [word2vec embedding file](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) and put it into the source folder
+* To use `reddit_retriever.py` you need to create Oauth credential from a reddit account using a [reddit script app](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example) and place the results into a credentials.json file (using credentials.json.example as a base)
 
 ### Usage:
 
