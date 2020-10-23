@@ -16,6 +16,8 @@ Install python modules from `requirements.txt` with :
 `pip3 install -r requirements.txt` 
 Usage of [virtualenv](https://docs.python.org/3/library/venv.html) is heavily recommended
 
+To use `reddit_retriever.py` you need to create Oauth credential from a reddit account using a [reddit script app](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example) and place the results into a credentials.json file (using credentials.json.example as a base)
+
 ### Usage:
 
 * Pretrain on aclimdb dataset :
