@@ -1,0 +1,8 @@
+numpy
+praw
+psaw
+sklearn
+gensim
+pandas
+keras
+tensorflow==1.15.0
